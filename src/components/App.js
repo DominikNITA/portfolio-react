@@ -6,7 +6,7 @@ import ContactPage from "./ContactPage/ContactPage";
 
 const App = () => {
   return (
-    <div>
+    <div class="app">
       <LandingPage></LandingPage>
       <SkillsPage></SkillsPage>
       <ProjectsPage></ProjectsPage>

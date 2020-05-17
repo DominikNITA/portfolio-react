@@ -10,12 +10,12 @@ const LinksComponent = () => {
            // Typical action to be performed when the document is ready:
           setConfig(JSON.parse(xhttp.responseText));
           console.log(config);
-        }
+        } 
     };
     
     xhttp.open("GET", `${process.env.PUBLIC_URL}/configuration/landingLinks.json`, true);
     xhttp.send();
-  }, [])
+  },[])
 
   return (
     <div className="links">

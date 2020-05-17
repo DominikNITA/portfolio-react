@@ -11,9 +11,11 @@ const LandingPage = () => {
         title="Dominik Nita"
         subtitle="Software Engineer Student"
       ></TitleComponent>
-      <ScrollComponent></ScrollComponent>
-      <AnimationComponent></AnimationComponent>
       <LinksComponent></LinksComponent>
+      <AnimationComponent></AnimationComponent>
+      <div className="landing-page__bottom">
+        <ScrollComponent></ScrollComponent>
+      </div>
     </div>
   );
 };
