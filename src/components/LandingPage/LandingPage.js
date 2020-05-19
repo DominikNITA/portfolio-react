@@ -6,14 +6,14 @@ import LinksComponent from "./LinksComponent";
 
 const LandingPage = () => {
   return (
-    <div className="landing-page">
+    <div id="landing-page">
       <TitleComponent
         title="Dominik Nita"
         subtitle="Software Engineer Student"
       ></TitleComponent>
       <LinksComponent></LinksComponent>
       <AnimationComponent></AnimationComponent>
-      <div className="landing-page__bottom">
+      <div id="landing-page__bottom">
         <ScrollComponent></ScrollComponent>
       </div>
     </div>

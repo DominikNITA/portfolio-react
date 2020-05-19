@@ -17,7 +17,7 @@ const AppearingText = ({ targetText, delay, cssClass, cssAnimation }) => {
   //   };
 
   useEffect(() => {
-    if (currentText.length == targetText.length) {
+    if (currentText.length === targetText.length) {
       setAnimationClass("");
       return;
     }
@@ -26,7 +26,7 @@ const AppearingText = ({ targetText, delay, cssClass, cssAnimation }) => {
       setCurrentText(newText);
     }, delay);
     return () => clearInterval(timer);
-  }, [currentText]);
+  }, [currentText, delay, targetText]);
 
   return <span className={`${cssClass} ${animationClass}`}>{currentText}</span>;
 };

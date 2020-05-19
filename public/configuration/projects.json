@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Blazor Skribbl",
+    "technologies": ["C#", "CSS", "JavaScript"],
+    "description": "Lorem ipsum mordeczko",
+    "photos": ["https://i.ibb.co/rsJQ0BD/Portfolio.png"],
+    "links": {
+      "code": "https://github.com/DominikNITA/SkribblBlazor",
+      "live": "https://blazor-skribbl.herokuapp.com"
+    }
+  },
+  {
+    "title": "Next Fixtures",
+    "technologies": ["C#", "CSS", "JavaScript"],
+    "description": "",
+    "photos": [
+      "https://i.ibb.co/wScsFyv/Next-Fixtures.png",
+      "https://i.ibb.co/rsJQ0BD/Portfolio.png"
+    ],
+    "links": {
+      "code": "",
+      "live": ""
+    }
+  },
+  {
+    "title": "",
+    "technologies": [""],
+    "description": "",
+    "photos": [""],
+    "links": {
+      "code": "",
+      "live": ""
+    }
+  },
+  {
+    "title": "",
+    "technologies": [""],
+    "description": "",
+    "photos": [""],
+    "links": {
+      "code": "",
+      "live": ""
+    }
+  }
+]
