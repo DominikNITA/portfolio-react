@@ -1,5 +1,6 @@
 import React from "react";
 
+//TODO: create contact me page
 const ContactPage = () => {
   return (
     <div id="contact-page">

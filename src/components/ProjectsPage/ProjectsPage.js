@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProjectTemplate from "./ProjectTemplate";
+import "./projectsPage.css";
 
 const ProjectsPage = () => {
   const [projects, setProjects] = useState([]);
@@ -7,11 +8,9 @@ const ProjectsPage = () => {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
       if (this.readyState === 4 && this.status === 200) {
-        // Typical action to be performed when the document is ready:
         setProjects(JSON.parse(xhttp.responseText));
       }
     };
-
     xhttp.open(
       "GET",
       `${process.env.PUBLIC_URL}/configuration/projects.json`,
@@ -26,7 +25,10 @@ const ProjectsPage = () => {
       <div className="header-bar"></div>
       <div id="projects__content">
         {projects.map((project) => (
-          <ProjectTemplate project={project}></ProjectTemplate>
+          <div className="project-container">
+            <ProjectTemplate project={project}></ProjectTemplate>
+            <span className="projects__spacer"></span>
+          </div>
         ))}
       </div>
     </div>

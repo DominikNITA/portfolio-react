@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-
+// TODO: add automatic switching of images
 export class Carousel extends Component {
   state = {
     photos: this.props.photos,
     active: 0,
+    showButtons: false,
   };
 
   switchPhoto = (increment) => {
@@ -20,27 +21,31 @@ export class Carousel extends Component {
   };
 
   render() {
-    const { photos, active } = this.state;
+    const { photos, active, showButtons } = this.state;
     return (
-      <div className="carousel">
+      <div
+        className="project__carousel"
+        onMouseEnter={() => this.setState({ showButtons: true })}
+        onMouseLeave={() => this.setState({ showButtons: false })}
+      >
         <img
           className="carousel__image"
           src={photos[active]}
           alt="Preview not available"
         />
-        {photos.length > 1 && (
+        {photos.length > 1 && showButtons && (
           <div className="carousel__buttons">
             <button
-              className="carousel__previous"
+              className="carousel__button carousel__button--previous"
               onClick={() => this.switchPhoto(-1)}
             >
-              Prev
+              &lt;
             </button>
             <button
-              className="carousel__next"
+              className="carousel__button carousel__button--previous"
               onClick={() => this.switchPhoto(1)}
             >
-              Next
+              &gt;
             </button>
           </div>
         )}

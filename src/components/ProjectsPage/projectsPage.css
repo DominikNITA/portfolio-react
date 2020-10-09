@@ -1,0 +1,26 @@
+/* #projects-page {
+  height: 80vh;
+} */
+
+#projects__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 80%;
+}
+
+.projects__spacer {
+  width: 80%;
+  height: 5px;
+  border-bottom: 5px solid var(--highlight-color);
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-container:last-child > .projects__spacer {
+  display: none;
+}
