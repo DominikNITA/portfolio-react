@@ -20,7 +20,7 @@ const ProjectsPage = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <div id="projects-page">
+    <div id="projects-page" class="topology-background">
       <h2>Projects</h2>
       <div className="header-bar"></div>
       <div id="projects__content">

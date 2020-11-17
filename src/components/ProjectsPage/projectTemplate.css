@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-height: 30vh;
+  min-height: 22vh;
 }
 
 .project__content {
@@ -66,13 +66,15 @@
 
 .project__button--live {
   background-color: var(--secondary-bg-color);
-  color: var(--secondary-text-color);
+  color: var(--secondary-highlight-color);
+  font-weight: 600;
 }
 
 .project__carousel {
   border: 5px solid var(--highlight-color);
   position: relative;
-  width: 80%;
+  height: auto;
+  width: 30rem;
   display: flex;
   justify-content: center;
 }
@@ -117,4 +119,23 @@
   background-color: rgba(37, 35, 35, 0.8);
   font-size: 2rem;
   color: var(--highlight-color);
+}
+
+@media (max-width: 1000px) {
+  .project {
+    flex-direction: column;
+  }
+  .project__content {
+    width: 100%;
+  }
+  .project__carousel {
+    width: 90%;
+  }
+  #projects__content {
+    width: 95% !important;
+  }
+  .project__technologies,
+  .project__title {
+    align-self: center;
+  }
 }

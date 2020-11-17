@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 @import "./utilities.css";
 
 * {
@@ -20,6 +21,8 @@ code {
 html,
 body {
   background: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: "Open Sans", sans-serif;
   padding: 0px;
   margin: 0px;
 }
@@ -50,79 +53,6 @@ h2 {
 .app > *:first-child {
   border-top: none;
   padding: 0;
-}
-
-/* Landing page styles */
-#landing-page {
-  min-height: 100vh;
-  background: var(--main-bg-color);
-}
-header {
-  display: flex;
-  flex-direction: row;
-}
-
-header:before,
-header:after {
-  font-size: 7rem;
-  line-height: 7rem;
-  height: auto;
-  margin: 0 10px;
-  color: var(--highlight-color);
-  position: relative;
-  top: -0.5rem;
-  /* vertical-align: baseline; */
-}
-header:before {
-  content: "{";
-}
-header:after {
-  content: "}";
-}
-
-.header__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header__title {
-  color: var(--secondary-highlight-color);
-  font-size: 3rem;
-  margin: 0;
-}
-
-.header__subtitle {
-  color: var(--main-text-color);
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.text-appearing:after {
-  content: "|";
-  color: var(--main-text-color);
-  animation: pulse 0.3s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@media (max-width: 576px) {
-  .header__title {
-    font-size: 2rem;
-    margin-top: 0.7rem;
-    margin-bottom: 1rem;
-  }
-  .header__subtitle {
-    font-size: 1.3rem;
-  }
 }
 
 /* Links section */
@@ -202,6 +132,7 @@ header:after {
   justify-content: space-evenly;
   align-items: flex-start;
   width: 100%;
+  max-width: 1300px;
 }
 
 .card {
@@ -252,8 +183,9 @@ header:after {
   background: var(--secondary-text-color);
 }
 
-/* Contact page styles */
-#contact-page {
-  background-color: var(--secondary-bg-color);
-  height: 35vh;
+@media (max-width: 550px) {
+  .header__subtitle {
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
 }

@@ -29,7 +29,7 @@ const ProjectTemplate = (props) => {
           {project.links.live && project.links.live !== "" && (
             <a href={project.links.live} target="blank">
               <button className="project__button project__button--live">
-                Live
+                LIVE
               </button>
             </a>
           )}

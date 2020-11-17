@@ -4,6 +4,7 @@ const AboutSection = () => {
   const scrollTo = (target) => {
     document.getElementById(target).scrollIntoView({ behavior: "smooth" });
   };
+
   return (
     <div className="card">
       <div className="card__hero"></div>
@@ -13,8 +14,8 @@ const AboutSection = () => {
         serious passion for
         <strong> algorithms, machine learning and web development.</strong>
         <br /> I always put a lot of effort in
-        <strong> writing clean and reutilisable code</strong> by following the
-        best practices. Check my projects below and contact me!
+        <strong> writing clean and reusable code</strong> by following the best
+        practices. Check my projects below and contact me!
       </div>
       <div className="card__buttons">
         <button id="projects-button" onClick={() => scrollTo("projects-page")}>
