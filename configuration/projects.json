@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Blazor Skribbl",
+    "technologies": ["C#", "CSS", "JavaScript"],
+    "description": "Web game inspired by popular multiplayer drawing game - Skribbl. Lobby management, custom authentification & realtime drawing made with Blazor WASM and SignalR Core.",
+    "photos": ["https://i.ibb.co/rsJQ0BD/Portfolio.png"],
+    "links": {
+      "code": "https://github.com/DominikNITA/SkribblBlazor",
+      "live": "https://blazor-skribbl.herokuapp.com"
+    }
+  },
+  {
+    "title": "Next Fixtures",
+    "technologies": ["C#", "CSS", "JavaScript"],
+    "description": "Website showing upcoming football matches in the top five european leagues. Clubs logo are webscraped from the internet. Possibility to select a range of dates, leagues using an edit form or by directly modifying search query.",
+    "photos": [
+      "https://i.ibb.co/FXRg4jD/YM1.png",
+      "https://i.ibb.co/mBKtFyK/YM2.png",
+      "https://i.ibb.co/TR3ZjpN/YM3.png"
+    ],
+    "links": {
+      "code": "https://github.com/DominikNITA/YourMatches",
+      "live": "https://next-fixtures.herokuapp.com"
+    }
+  },
+  {
+    "title": "Url Shortener",
+    "technologies": ["C#", "CSS", "SQL"],
+    "description": "Url shortener made with Blazor Server. Website allows to signup to the service and to skip ads on redirect. Users also can buy premium account which gives them a possibility to choose a custom short link ending.",
+    "photos": ["https://i.ibb.co/LzPcjq9/Short1.png",
+      "https://i.ibb.co/0jyCHSQ/Short2.png",
+      "https://i.ibb.co/cywKHCQ/Short3.png"],
+    "links": {
+      "code": "https://github.com/DominikNITA/UrlShortener.Blazor",
+      "live": "https://short-blazor.herokuapp.com/"
+    }
+  },
+  {
+    "title": "Sorting Algorithms",
+    "technologies": ["C#", "Unity"],
+    "description": "Sorting algorithms visualization made with Unity game engine. Thanks to this project I learned more about algorithms and command design pattern.",
+    "photos": ["https://i.ibb.co/0qkRdHS/Sorting-Algorithms.png"],
+    "links": {
+      "code": "",
+      "live": ""
+    }
+  },
+  {
+    "title": "Evacuation Simulation",
+    "technologies": ["Java"],
+    "description": "University assignment. Our objectif was to simulate evacuation of crowd from modifiable building.",
+    "photos": ["https://i.ibb.co/8cSVmGn/Evacuation.png"],
+    "links": {
+      "code": "https://github.com/DominikNITA/EvacuationSimulation",
+      "live": ""
+    }
+  },
+  {
+    "title": "Global Warming ",
+    "technologies": ["Java","JavaFx"],
+    "description": "University assignement. This program helps to visualize evolution of global temperatures over the years. This project was really interesting to work on, because I had to use knowledge from most subjects, like user experience.",
+    "photos": ["https://i.ibb.co/tz3xJ2g/Global-Warming-Project.png"],
+    "links": {
+      "code": "https://github.com/DominikNITA/GlobalWarming_University",
+      "live": ""
+    }
+  },
+  {
+    "title": "UDP & TCP",
+    "technologies": ["C++", "Linux"],
+    "description": "University assignment. Clients and servers using UDP and TCP protocols for Linux.",
+    "photos": ["https://i.ibb.co/6nMbjd1/TCP-UDP.png"],
+    "links": {
+      "code": "https://github.com/DominikNITA/UDP_TCP_Assignment",
+      "live": ""
+    }
+  }
+]

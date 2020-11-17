@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Software Development",
+    "skillsList": ["C#", "C++", "Python", "Java", "SQL"]
+  },
+  {
+    "title": "Web Development",
+    "skillsList": [
+      "React",
+      "Blazor",
+      "CSS",
+      "JavaScript",
+      "Rest API",
+      "SignalR Core"
+    ]
+  },
+  {
+    "title": "Tools",
+    "skillsList": ["Git", "IDE", "Trello", "Docker", "Heroku Hosting", "Figma"]
+  }
+]
