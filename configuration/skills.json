@@ -6,10 +6,11 @@
   {
     "title": "Web Development",
     "skillsList": [
-      "React",
-      "Blazor",
-      "CSS",
+      "React / Vue",
       "JavaScript",
+      "CSS & SCSS",
+      "Bootstrap & Tailwind",
+      "Blazor",
       "Rest API",
       "SignalR Core"
     ]
