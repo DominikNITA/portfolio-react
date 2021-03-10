@@ -25,7 +25,13 @@ const LinksComponent = () => {
     <div className="links">
       {config.map((data, index) => {
         return (
-          <a key={index} href={data.url} title={data.hoverName} target="blank">
+          <a
+            key={index}
+            href={data.url}
+            title={data.hoverName}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={process.env.PUBLIC_URL + "/images/" + data.imageName}
               alt={data.hoverName}

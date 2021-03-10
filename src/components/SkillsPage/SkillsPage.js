@@ -23,7 +23,7 @@ const SkillsPage = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <div id="skills-page">
+    <div id="skills-page" class="circles-background">
       <h2>About Me</h2>
       <div className="header-bar"></div>
       <div id="skills-page__content">

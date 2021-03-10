@@ -20,14 +20,22 @@ const ProjectTemplate = (props) => {
         <Carousel photos={project.photos}></Carousel>
         <div className="project__buttons">
           {project.links.code && project.links.code !== "" && (
-            <a href={project.links.code} target="blank">
+            <a
+              href={project.links.code}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="project__button project__button--code">
                 Code
               </button>
             </a>
           )}
           {project.links.live && project.links.live !== "" && (
-            <a href={project.links.live} target="blank">
+            <a
+              href={project.links.live}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="project__button project__button--live">
                 LIVE
               </button>
