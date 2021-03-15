@@ -3,7 +3,7 @@
     "title": "Blazor Skribbl",
     "technologies": ["C#", "CSS", "JavaScript"],
     "description": "Web game inspired by popular multiplayer drawing game - Skribbl. Lobby management, custom authentification & realtime drawing made with Blazor WASM and SignalR Core.",
-    "photos": ["https://i.ibb.co/rsJQ0BD/Portfolio.png"],
+    "photos": ["https://i.ibb.co/Tw3x98y/skribbl.png"],
     "links": {
       "code": "https://github.com/DominikNITA/SkribblBlazor",
       "live": "https://blazor-skribbl.herokuapp.com"
